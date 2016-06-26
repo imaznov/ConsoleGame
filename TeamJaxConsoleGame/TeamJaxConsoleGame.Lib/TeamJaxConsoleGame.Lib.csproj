@@ -48,6 +48,7 @@
     <Compile Include="Entities\GameObject.cs" />
     <Compile Include="Entities\Hero.cs" />
     <Compile Include="Entities\Item.cs" />
+    <Compile Include="Entities\Map.cs" />
     <Compile Include="Entities\Person.cs" />
     <Compile Include="Entities\Skills\Abstract\Skill.cs" />
     <Compile Include="Entities\Skills\ActiveSkill.cs" />
@@ -55,11 +56,11 @@
     <Compile Include="Enumerations\AbilityType.cs" />
     <Compile Include="Enumerations\ItemType.cs" />
     <Compile Include="Enumerations\SkillType.cs" />
+    <Compile Include="Interfaces\IMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ExtensionMethods\" />
-    <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
