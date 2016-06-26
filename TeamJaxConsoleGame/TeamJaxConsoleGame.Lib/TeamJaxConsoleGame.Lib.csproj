@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants\GlobalConstants.cs" />
     <Compile Include="Entities\Abilities\Abstract\Ability.cs" />
     <Compile Include="Entities\Abilities\DamageAbility.cs" />
     <Compile Include="Entities\Abilities\HealAbility.cs" />
